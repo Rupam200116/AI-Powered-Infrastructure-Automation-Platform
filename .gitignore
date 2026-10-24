@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Node.js
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Local secrets and environments
+.env
+.env.*
+!.env.example
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.terraform/
+*.tfstate
+*.tfstate.*
